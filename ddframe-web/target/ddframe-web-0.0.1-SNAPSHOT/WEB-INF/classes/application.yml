@@ -1,0 +1,24 @@
+server:
+  port: 9999 #8181
+  servlet: 
+    context-path: /web
+spring:
+  application:
+    name: ddframe-web
+  profiles:
+    active:
+    - ddframe
+    - redis
+    - mysql
+  datasource:
+    #url: jdbc:sqlite:stat.db
+    #username: ruiyun
+    #password: ruiyun
+    #driver-class-name: org.sqlite.JDBC
+    url: jdbc:mysql://127.0.0.1:3306/report?characterEncoding=UTF-8
+    username: ruiyun_report
+    password: Ruiyun@zzbitem
+    driver-class-name: com.mysql.jdbc.Driver
+  
+mybatis:
+  mapperLocations: classpath*:*mappers/*mapper.xml 

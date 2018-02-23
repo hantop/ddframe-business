@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: ddrame-task
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: ruiyun077
+Implementation-Vendor-Id: com.ddframe
+Build-Jdk: 1.8.0_121
+Implementation-URL: http://projects.spring.io/spring-boot/spring-boot-
+ starter-parent/ddframe-business/ddrame-task/
+Created-By: Maven Integration for Eclipse
+
