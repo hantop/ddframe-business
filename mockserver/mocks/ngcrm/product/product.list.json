@@ -1,0 +1,16 @@
+/**
+ * 产品列表
+ *
+ * @url /product
+ */
+ {
+    "code": 0,
+    "result|20": [
+      {
+        "id|+1":  /[a-z][A-Z][0-9]/,
+        "name": "@cname",
+        "catalog": "@email",
+        "description":"@"
+      }
+    ]
+  }

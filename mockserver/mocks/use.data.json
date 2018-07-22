@@ -1,0 +1,15 @@
+/**
+ * 结果Mock
+ *
+ * @url /just-data-result
+ */
+ {
+    "code": 0,
+    "result|5": [
+      {
+        "uid|+1": 1,
+        "name": "@cname",
+        "email": "@email"
+      }
+    ]
+  }
